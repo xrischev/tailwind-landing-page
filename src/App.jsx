@@ -19,7 +19,7 @@ function App() {
                   <a aria-label="Home" href="/#">
                     <img
                       className="ml-8 sm:mt-0 sm:w-auto sm:ml-0 relative max-[600px]:w-[75%] max-[600px]:ml-[15%] max-[600px]:top-[20px]"
-                      src="public/head/logo.svg"
+                      src="src/public/head/logo.svg"
                     />
                   </a>
 
@@ -108,7 +108,7 @@ function App() {
 
                 <img
                   className="absolute ml-2 lg:hidden h-10 w-8 rounded-none w-6 right-0 max-[768px]:mr-5 max-[611px]:top-2.5 max-[768px]:top-0"
-                  src="public/mobile/empty-cart.svg"
+                  src="src/public/mobile/empty-cart.svg"
                 />
               </nav>
             </div>
@@ -208,11 +208,11 @@ function App() {
 
                   <img
                     className="float-right mr-8 mt-4 cursor-pointer "
-                    src="src//public/components/sec-1-first-image.svg"
+                    src="src/public/components/sec-1-first-image.svg"
                   />
                   <img
                     className="float-right mr-8 mt-4 cursor-pointer"
-                    src="src//public/components/sec-1-image-2.svg"
+                    src="src/public/components/sec-1-image-2.svg"
                   />
                   <img
                     className="float-right mr-8 mt-4 cursor-pointer"
@@ -226,7 +226,7 @@ function App() {
 
                   <img
                     className="float-right mr-10 w-1/5 mt-4 ml-[30%] cursor-pointer"
-                    src="../public/components/arrow-down.svg"
+                    src="src/public/components/arrow-down.svg"
                   />
                 </div>
               </div>
@@ -235,10 +235,10 @@ function App() {
               <div className="grid-rows-1 max-[768px]:hidden">
                 <div className="flex max-[768px]:justify-center">
                   <a href="">
-                    <img src="../public/sections/arrow-back.svg" />
+                    <img src="src/public/sections/arrow-back.svg" />
                   </a>
                   <a className="ml-2" href="">
-                    <img src="../public/sections/button-back.svg" />
+                    <img src="src/public/sections/button-back.svg" />
                   </a>
                 </div>
               </div>
@@ -251,11 +251,11 @@ function App() {
                 </div>
 
                 <div className="grid-rows-1 mt-3 flex max-[768px]:justify-center">
-                  <img src="../public/components/stars.svg" />
-                  <img className="ml-1" src="../public/components/stars.svg" />
-                  <img className="ml-1" src="../public/components/stars.svg" />
-                  <img className="ml-1" src="../public/components/stars.svg" />
-                  <img className="ml-1" src="../public/components/stars.svg" />
+                  <img src="src/public/components/stars.svg" />
+                  <img className="ml-1" src="src/public/components/stars.svg" />
+                  <img className="ml-1" src="src/public/components/stars.svg" />
+                  <img className="ml-1" src="src/public/components/stars.svg" />
+                  <img className="ml-1" src="src/public/components/stars.svg" />
 
                   <span className="font-['Melodrama'] text-xl color-[#191411] ml-2 tracking-widest top-0.5">
                     265 reviews
@@ -310,13 +310,13 @@ function App() {
                   <div className="flex">
                     <img
                       className="max-[640px]:max-w-[20px] max-[640px]:hidden"
-                      src="../public/components/radio-button.svg"
+                      src="src/public/components/radio-button.svg"
                     />
 
-                    <button className="sm:bg-[url('../public/components/btn-radio-black-bg.svg')] bg-[url('../public/mobile/bg-mobile-buttons-left.svg')] text-white bg-contain bg-no-repeat text-xl px-3 py-1 ml-2 max-[640px]:bg-cover max-[640px]:inline-flex">
+                    <button className="sm:bg-[url('src/public/components/btn-radio-black-bg.svg')] bg-[url('src/public/mobile/bg-mobile-buttons-left.svg')] text-white bg-contain bg-no-repeat text-xl px-3 py-1 ml-2 max-[640px]:bg-cover max-[640px]:inline-flex">
                       <img
                         className="max-[640px]:max-w-[20px] max-[640px]:block sm:hidden mt-2"
-                        src="../public/mobile/mobile-button-light.svg"
+                        src="src/public/mobile/mobile-button-light.svg"
                       />
                       <span className="text-[0.875rem]">
                         One-time purchase $169.00
@@ -329,13 +329,13 @@ function App() {
                   <div className="flex">
                     <img
                       className="max-[640px]:max-w-[20px] max-[640px]:hidden"
-                      src="../public/components/btn-no-select.svg"
+                      src="src/public/components/btn-no-select.svg"
                     />
 
-                    <button className="sm:bg-[url('../public/components/btn-radio-bg-gray.svg')] bg-[url('../public/mobile/bg-button-right.svg')] text-black bg-contain bg-no-repeat text-xl px-3 py-1 ml-2 max-[640px]:bg-cover max-[640px]:inline-flex ">
+                    <button className="sm:bg-[url('src/public/components/btn-radio-bg-gray.svg')] bg-[url('src/public/mobile/bg-button-right.svg')] text-black bg-contain bg-no-repeat text-xl px-3 py-1 ml-2 max-[640px]:bg-cover max-[640px]:inline-flex ">
                       <img
                         className="max-[640px]:max-w-[20px] max-[640px]:block sm:hidden mt-2"
-                        src="../public/components/radio-button.svg"
+                        src="src/public/components/radio-button.svg"
                       />
                       <span className="text-[0.875rem]">
                         Subscribe & save 10% $269.10
@@ -355,7 +355,7 @@ function App() {
 
               <div className="grid-rows-1 max-[768px]:flex md:hidden max-[768px]:order-[-3] mt-6">
                 <a
-                  className="ml-8 bg-[url('../public/components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat w-full max-[768px]:ml-0 max-[768px]:bg-cover"
+                  className="ml-8 bg-[url('src/public/components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat w-full max-[768px]:ml-0 max-[768px]:bg-cover"
                   href=""
                 >
                   Add To Cart
@@ -376,20 +376,20 @@ function App() {
 
                   <div className="flex max-[768px]:justify-center">
                     <a href="">
-                      <img src="../public/components/button-minus.svg" />
+                      <img src="src/public/components/button-minus.svg" />
                     </a>
 
                     <a className="ml-2" href="">
-                      <img src="../public/components/button-line-y.svg" />
+                      <img src="src/public/components/button-line-y.svg" />
                     </a>
 
                     <a className="ml-2" href="">
-                      <img src="../public/components/button-plus.svg" />
+                      <img src="src/public/components/button-plus.svg" />
                     </a>
                   </div>
 
                   <a
-                    className="max-[768px]:hidden ml-8 bg-[url('../public/components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat lg:bg-contain bg-auto"
+                    className="max-[768px]:hidden ml-8 bg-[url('src/public/components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat lg:bg-contain bg-auto"
                     href=""
                   >
                     Add To Cart
@@ -399,7 +399,7 @@ function App() {
                     className="ml-3 flex align-middle max-[768px]:hidden"
                     href=""
                   >
-                    <img src="../public/components/right-arrow-cart.svg" />
+                    <img src="src/public/components/right-arrow-cart.svg" />
                   </a>
                 </div>
               </div>
@@ -412,7 +412,7 @@ function App() {
 
                   <div className="flex max-[768px]:justify-center md:mt-0 mt-2">
                     <span className="ml-2 max-[768px]:float-left">
-                      <img src="../public/components/shop-pay.svg" />
+                      <img src="src/public/components/shop-pay.svg" />
                     </span>
 
                     <span className="text-left underline underline-offset-1 font-['Gill_Sans'] text-xl ml-2 flex align-middle max-[768px]:float-left">
@@ -442,7 +442,7 @@ function App() {
           <div className="absolute lg:ml-60">
             <img
               className="w-4/5 ml-[20%] max-[768px]:w-6/12 max-[768px]:relative max-[768px]:ml-0 max-[768px]:left-[-13px] max-[768px]:bottom-[84px]"
-              src="../public/components/box.svg"
+              src="src/public/components/box.svg"
             />
           </div>
 
@@ -460,18 +460,18 @@ function App() {
           <div className="relative">
             <img
               className="absolute top-[35%] right-[-23px] z-[999] md:block max-[768px]:hidden"
-              src="../public/components/plus.png"
+              src="src/public/components/plus.png"
             />
             <div className="relative">
               <img
                 className="w-[98%] md:h-[340px] md:min-h-[340px]  max-[768px]:min-h-[250px]"
-                src="../public/components/section-2-image-1.svg"
+                src="src/public/components/section-2-image-1.svg"
               />
 
               <div className="absolute top-0 right-0 h-full md:block max-[768px]:hidden">
                 <img
                   className="h-[380px]"
-                  src="../public/components/section-2-right-border.png"
+                  src="src/public/components/section-2-right-border.png"
                 />
               </div>
             </div>
@@ -490,18 +490,18 @@ function App() {
           <div className="relative">
             <img
               className="absolute top-[35%] right-[-23px] z-[999] md:block max-[768px]:hidden"
-              src="../public/components/plus.png"
+              src="src/public/components/plus.png"
             />
             <div className="relative">
               <img
                 className="w-[98%] md:h-[340px] md:min-h-[340px]  max-[768px]:min-h-[250px]"
-                src="../public/components/section-2-image-2.svg"
+                src="src/public/components/section-2-image-2.svg"
               />
 
               <div className="absolute top-0 right-0 h-full md:block max-[768px]:hidden">
                 <img
                   className="h-[380px]"
-                  src="../public/components/section-2-right-border.png"
+                  src="src/public/components/section-2-right-border.png"
                 />
               </div>
             </div>
@@ -520,30 +520,30 @@ function App() {
           <div className="md:hidden max-[768px]:block h-0.5 w-[92%] absolute top-[52%]">
             <img
               className="absolute z-[999] md:hidden max-[768px]:block left-[49%] w-[12%] bottom-[-24px]"
-              src="../public/components/plus.png"
+              src="src/public/components/plus.png"
             />
-            <img className="max-[768px]:bg-[url('../public/mobile/horizontal-mobile-1.svg') w-11/12 ml-[10%] h-full bg-[#C54B38]" />
+            <img className="max-[768px]:bg-[url('src/public/mobile/horizontal-mobile-1.svg') w-11/12 ml-[10%] h-full bg-[#C54B38]" />
           </div>
 
           <div className="md:hidden max-[768px]:block w-0.5 absolute top h-full left-1/2">
-            <img className="max-[768px]:bg-[url('../public/mobile/vertical-mobile-line.svg') h-[94%] mt-[8%] w-full bg-[#C54B38]" />
+            <img className="max-[768px]:bg-[url('src/public/mobile/vertical-mobile-line.svg') h-[94%] mt-[8%] w-full bg-[#C54B38]" />
           </div>
 
           <div className="relative">
             <img
               className="absolute top-[35%] right-[-23px] z-[999] md:block max-[768px]:hidden"
-              src="../public/components/plus.png"
+              src="src/public/components/plus.png"
             />
             <div className="relative">
               <img
                 className="w-[98%] md:h-[340px] md:min-h-[340px]  max-[768px]:min-h-[200px]"
-                src="../public/components/section-2image-3.svg"
+                src="src/public/components/section-2image-3.svg"
               />
 
               <div className="absolute top-0 right-0 h-full md:block max-[768px]:hidden">
                 <img
                   className="h-[380px]"
-                  src="../public/components/section-2-right-border.png"
+                  src="src/public/components/section-2-right-border.png"
                 />
               </div>
             </div>
@@ -563,7 +563,7 @@ function App() {
             <div className="relative">
               <img
                 className="w-[98%] md:h-[340px] md:min-h-[340px] max-[768px]:min-h-[200px]"
-                src="../public/components/section-2-image-4.svg"
+                src="src/public/components/section-2-image-4.svg"
               />
             </div>
 
@@ -582,41 +582,41 @@ function App() {
         <div className="grid-rows-1 mt-24 text-center max-[768px]:mt-12">
           <div className="inline-flex">
             <a
-              className="bg-[url('../public/components/btn-add-card-bg.svg')] py-4 px-20 text-xl text-[#F2EFE1] md:ml-8 ml-0"
+              className="bg-[url('src/public/components/btn-add-card-bg.svg')] py-4 px-20 text-xl text-[#F2EFE1] md:ml-8 ml-0"
               href=""
             >
               Add To Cart
             </a>
 
             <a className="ml-3 flex align-middle md:block hidden" href="">
-              <img src="../public/components/right-arrow-cart.svg" />
+              <img src="src/public/components/right-arrow-cart.svg" />
             </a>
           </div>
         </div>
 
         <div className="grid-rows-1 mt-24 text-center md:mb-16 max-[768px]:p-4">
-          <img className="m-auto" src="../public/components/Diagram.svg" />
+          <img className="m-auto" src="src/public/components/Diagram.svg" />
 
           <div className="h-24 max-[768px]:hidden">
             <img
               className="m-auto mr-0 relative lg:bottom-[250px]"
-              src="../public/components/section-pigs-right.svg"
+              src="src/public/components/section-pigs-right.svg"
             />
           </div>
         </div>
 
-        <div className="grid-rows-1 pt-48 relative text-center md:bg-[url('../public/components/bg-food.svg')] bg-no-repeat bg-contain max-[1024px]:bg-cover">
+        <div className="grid-rows-1 pt-48 relative text-center md:bg-[url('src/public/components/bg-food.svg')] bg-no-repeat bg-contain max-[1024px]:bg-cover">
           <div className="absolute md:top-[130px] max-[768px]:top-[-30px]">
             <img
               className="max-[1024px]:w-2/5"
-              src="../public/components/image-section-4-left.svg"
+              src="src/public/components/image-section-4-left.svg"
             />
           </div>
 
           <div className="absolute top-[250px] right-0 max-[768px]:hidden">
             <img
               className="max-[1024px]:w-2/5 max-[1024px]:float-right"
-              src="../public/components/section-4-right.svg"
+              src="src/public/components/section-4-right.svg"
             />
           </div>
 
@@ -644,7 +644,7 @@ function App() {
         <div className="grid-rows-1 md:mb-24 mb-10 relative p-4">
           <img
             className="absolute left-0 sm:bottom-[140px] lg:bottom-[20px] max-[768px]:bottom-52  max-[768px]:w-2/5"
-            src="../public/components/left-section-5.svg"
+            src="src/public/components/left-section-5.svg"
           />
 
           <div className="text-6xl font-medium text-center text-[#C54B38] leading-[4rem] max-w-4xl font-['Melodrama'] m-auto max-[768px]:text-4xl">
@@ -658,9 +658,9 @@ function App() {
               <div className="flex relative">
                 <img
                   className="absolute top-5 md:right-[-60px] max-[768px]:left-52"
-                  src="../public/components/arrow-section-right-red.svg"
+                  src="src/public/components/arrow-section-right-red.svg"
                 />
-                <h2 className="bg-[url('../public/components/background-title.svg')] md:text-5xl text-4xl font-medium text-center font-['Melodrama'] leading-[3rem] inline mx-auto no-repeat ml-0">
+                <h2 className="bg-[url('src/public/components/background-title.svg')] md:text-5xl text-4xl font-medium text-center font-['Melodrama'] leading-[3rem] inline mx-auto no-repeat ml-0">
                   1. Genetics
                 </h2>
               </div>
@@ -679,9 +679,9 @@ function App() {
               <div className="flex relative">
                 <img
                   className="absolute top-5 md:right-[-60px] max-[768px]:left-52"
-                  src="../public/components/arrow-section-right-red.svg"
+                  src="src/public/components/arrow-section-right-red.svg"
                 />
-                <h2 className="bg-[url('../public/components/background-title.svg')] md:text-5xl text-4xl font-medium text-center font-['Melodrama'] leading-[3rem] inline mx-auto no-repeat ml-0">
+                <h2 className="bg-[url('src/public/components/background-title.svg')] md:text-5xl text-4xl font-medium text-center font-['Melodrama'] leading-[3rem] inline mx-auto no-repeat ml-0">
                   2. Lifestyle
                 </h2>
               </div>
@@ -697,7 +697,7 @@ function App() {
 
             <div className="mr-20 md:block hidden">
               <div className="flex relative">
-                <h2 className="bg-[url('../public/components/background-title.svg')] md:text-5xl text-4xl font-medium text-center font-['Melodrama'] leading-[3rem] inline mx-auto no-repeat ml-0">
+                <h2 className="bg-[url('src/public/components/background-title.svg')] md:text-5xl text-4xl font-medium text-center font-['Melodrama'] leading-[3rem] inline mx-auto no-repeat ml-0">
                   3. Diet
                 </h2>
               </div>
@@ -714,20 +714,20 @@ function App() {
         <div className="relative">
           <img
             className="absolute right-0 md:top-[-180px] max-[768px]:w-3/5 max-[768px]:bottom-2/4 z-[-1]"
-            src="../public/components/right-section-5.svg"
+            src="src/public/components/right-section-5.svg"
           />
         </div>
 
         <div className="grid-rows-1 xl:mx-[300px] mt-[70px]">
-          <img className="" src="../public/components/center-image.svg" />
+          <img className="" src="src/public/components/center-image.svg" />
         </div>
 
         <img
           className="relative lg:bottom-[150px] hidden md-block"
-          src="../public/components/section-5-left-bottom.svg"
+          src="src/public/components/section-5-left-bottom.svg"
         />
 
-        <div className="p-4 grid-rows-1 bg-[url('../public/components/bg-logos.svg')] max-[640px]:bg-[url('../public/mobile/bg-logos-mobile.svg')]  mx-auto md:bg-center bg-no-repeat bg-contain">
+        <div className="p-4 grid-rows-1 bg-[url('src/public/components/bg-logos.svg')] max-[640px]:bg-[url('src/public/mobile/bg-logos-mobile.svg')]  mx-auto md:bg-center bg-no-repeat bg-contain">
           <h2 className="text-orange-700 text-6xl font-medium text-center font-['Melodrama'] leading-[4rem] md:pt-56 pt-10 md:pb-0 pb-4">
             Ibérico Pork is
           </h2>
@@ -737,13 +737,13 @@ function App() {
               <div className="flex md:justify-center justify-end md:items-center">
                 <img
                   className="mr-0 md:mr-0 mr-4"
-                  src="../public/mobile/mobile-logo-1.svg"
+                  src="src/public/mobile/mobile-logo-1.svg"
                 />
               </div>
               <div className="flex md:justify-center justify-start md:items-center">
                 <img
                   className="md:m-auto md:mr-4 md:ml-0 ml-4"
-                  src="../public/mobile/mobile-logo-2.svg"
+                  src="src/public/mobile/mobile-logo-2.svg"
                 />
               </div>
             </div>
@@ -752,19 +752,19 @@ function App() {
               <div className="flex md:justify-center justify-end md:items-center">
                 <img
                   className="mr-0 md:mr-0 mr-4"
-                  src="../public/mobile/mobile-logo-3.svg"
+                  src="src/public/mobile/mobile-logo-3.svg"
                 />
               </div>
               <div className="flex md:justify-center justify-center md:items-center">
                 <img
                   className="md:m-auto md:mr-4 md:ml-0 ml-4"
-                  src="../public/mobile/mobile-logo-4.svg"
+                  src="src/public/mobile/mobile-logo-4.svg"
                 />
               </div>
               <div className="flex md:justify-center justify-start md:items-center">
                 <img
                   className="md:m-auto md:mr-4 md:ml-0 ml-4"
-                  src="../public/mobile/mobile-logo-5.svg"
+                  src="src/public/mobile/mobile-logo-5.svg"
                 />
               </div>
             </div>
@@ -772,51 +772,51 @@ function App() {
 
           <div className="md:grid hidden grid-cols-4 mt-4 xl:mx-[300px] max-[768px]:hidden">
             <div className="flex justify-center items-center">
-              <img className="mr-0" src="../public/components/logo-1.png" />
+              <img className="mr-0" src="src/public/components/logo-1.png" />
             </div>
             <div className="flex justify-center items-center">
               <img
                 className="m-auto mr-4"
-                src="../public/components/logo-2.svg"
+                src="src/public/components/logo-2.svg"
               />
             </div>
             <div className="flex justify-center items-center">
               <img
                 className="m-auto ml-4"
-                src="../public/components/logo-3.svg"
+                src="src/public/components/logo-3.svg"
               />
             </div>
             <div className="flex justify-center items-center">
-              <img src="../public/components/logo-4.svg" />
+              <img src="src/public/components/logo-4.svg" />
             </div>
           </div>
 
           <div className="md:grid hidden grid-cols-4 mt-4 xl:mx-[390px] mt-20 pb-72">
             <div className="flex justify-center items-center">
-              <img src="../public/components/logo-5.svg" />
+              <img src="src/public/components/logo-5.svg" />
             </div>
             <div className="flex justify-center items-center">
-              <img src="../public/components/logo-6.svg" />
+              <img src="src/public/components/logo-6.svg" />
             </div>
             <div className="flex justify-center items-center">
-              <img src="../public/components/logo-7.svg" />
+              <img src="src/public/components/logo-7.svg" />
             </div>
             <div className="flex justify-center items-center">
-              <img src="../public/components/logo-8.svg" />
+              <img src="src/public/components/logo-8.svg" />
             </div>
           </div>
         </div>
 
         <div className="grid-rows-1 xl:mx-[300px] mt-[70px] md:h-[350px] max-[640px]:h-40">
-          <img className="" src="../public/components/footer-before.svg" />
+          <img className="" src="src/public/components/footer-before.svg" />
         </div>
 
-        <div className="bg-[url('../public/components/footer-bg.svg')] relative">
-          <div className="bg-[url('../public/components/footer-back.svg')] max-[768px]:px-4">
+        <div className="bg-[url('src/public/components/footer-bg.svg')] relative">
+          <div className="bg-[url('src/public/components/footer-back.svg')] max-[768px]:px-4">
             <div className="grid-rows-1 xl:mx-[300px] pt-24">
               <img
                 className="m-auto"
-                src="../public/components/campo-grande-logo 1.svg"
+                src="src/public/components/campo-grande-logo 1.svg"
               />
             </div>
 
@@ -825,34 +825,34 @@ function App() {
                 <a href="">
                   <img
                     className="mr-4"
-                    src="../public/components/icon-1-footer.svg"
+                    src="src/public/components/icon-1-footer.svg"
                   />
                 </a>
                 <a href="">
                   <img
                     className="mr-4"
-                    src="../public/components/icon-2-footer.svg"
-                  />
-                </a>
-
-                <a href="">
-                  <img
-                    className="mr-4"
-                    src="../public/components/icon-3-footer.svg"
+                    src="src/public/components/icon-2-footer.svg"
                   />
                 </a>
 
                 <a href="">
                   <img
                     className="mr-4"
-                    src="../public/components/icon-4-footer.svg"
+                    src="src/public/components/icon-3-footer.svg"
                   />
                 </a>
 
                 <a href="">
                   <img
                     className="mr-4"
-                    src="../public/components/icon-5-footer.svg"
+                    src="src/public/components/icon-4-footer.svg"
+                  />
+                </a>
+
+                <a href="">
+                  <img
+                    className="mr-4"
+                    src="src/public/components/icon-5-footer.svg"
                   />
                 </a>
               </div>
@@ -869,13 +869,13 @@ function App() {
               <div className="flex relative max-[768px]:px-4">
                 <input
                   placeholder="Enter your email here"
-                  className="bg-[url('../public/components/footer-input-bg.svg')] w-100 py-4 px-3 w-full bg-cover bg-transparent"
+                  className="bg-[url('src/public/components/footer-input-bg.svg')] w-100 py-4 px-3 w-full bg-cover bg-transparent"
                 />
 
                 <a href="">
                   <img
                     className="m-auto absolute right-0 top-[8px] md:right-3.5 right-5"
-                    src="../public/components/arrow-on-input.svg"
+                    src="src/public/components/arrow-on-input.svg"
                   />
                 </a>
               </div>

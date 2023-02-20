@@ -68,7 +68,7 @@ function App() {
                     <a className="inline-block not-italic font-normal text-lg font-['Gill_Sans']">
                       <img
                         className="relative w-[70%] right-[20px]"
-                        src="public/head/cart-head.svg"
+                        src="head/cart-head.svg"
                       />
                     </a>
                   </div>
@@ -349,7 +349,7 @@ function App() {
 
               <div className="grid-rows-1 max-[768px]:flex md:hidden max-[768px]:order-[-3] mt-6">
                 <a
-                  className="ml-8 bg-[url('components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat w-full max-[768px]:ml-0 max-[768px]:bg-cover"
+                  className="ml-8 bg-[url('public/components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat w-full max-[768px]:ml-0 max-[768px]:bg-cover"
                   href=""
                 >
                   Add To Cart

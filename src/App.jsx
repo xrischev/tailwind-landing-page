@@ -307,7 +307,7 @@ function App() {
                       src="components/radio-button.svg"
                     />
 
-                    <button className="sm:bg-[url('components/btn-radio-black-bg.svg')] bg-[url('mobile/bg-mobile-buttons-left.svg')] text-white bg-contain bg-no-repeat text-xl px-3 py-1 ml-2 max-[640px]:bg-cover max-[640px]:inline-flex">
+                    <button className="sm:bg-[url('/components/btn-radio-black-bg.svg')] bg-[url('mobile/bg-mobile-buttons-left.svg')] text-white bg-contain bg-no-repeat text-xl px-3 py-1 ml-2 max-[640px]:bg-cover max-[640px]:inline-flex">
                       <img
                         className="max-[640px]:max-w-[20px] max-[640px]:block sm:hidden mt-2"
                         src="mobile/mobile-button-light.svg"
@@ -383,7 +383,7 @@ function App() {
                   </div>
 
                   <a
-                    className="max-[768px]:hidden ml-8 bg-[url('components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat lg:bg-contain bg-auto"
+                    className="max-[768px]:hidden ml-8 bg-[url('/components/btn-add-card-bg.svg')] py-4 text-center min-w-[140px] xl:px-20 text-xl text-[#F2EFE1] bg-no-repeat lg:bg-contain bg-auto"
                     href=""
                   >
                     Add To Cart
